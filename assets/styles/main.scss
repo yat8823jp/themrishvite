@@ -1,0 +1,22 @@
+@import url( 'https://fonts.googleapis.com/css2?family=Poiret+One&display=swap' );
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+	background: url( '/wp-content/themes/themrishvite/assets/images/aig-ai20221111066-xl_TP_V.jpg' ) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	overflow: hidden;
+	font-family: 'Poiret One', cursive;
+}
+
+body {
+	height: 100%;
+}
+
+.c-drop-shadow--blue { filter: drop-shadow(0px 0px 16px #20d5f5); }

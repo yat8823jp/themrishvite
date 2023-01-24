@@ -1,0 +1,29 @@
+{
+  "name": "themrishvite",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.13",
+    "cross-env": "^7.0.3",
+    "fs": "^0.0.1-security",
+    "glob": "^8.1.0",
+    "path": "^0.12.7",
+    "postcss": "^8.4.21",
+    "postcss-import": "^15.1.0",
+    "postcss-loader": "^7.0.2",
+    "postcss-nesting": "^10.2.0",
+    "sass": "^1.57.1",
+    "tailwindcss": "^3.2.4",
+    "vite-plugin-live-reload": "^3.0.1",
+    "vite-plugin-sass-glob-import": "^2.0.0"
+  }
+}
