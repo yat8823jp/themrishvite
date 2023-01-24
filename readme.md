@@ -33,8 +33,8 @@ Build to dist directory for main.js.
  
 V1.1.0
 
-- ビルド機能追加
+- add build function
 
 V1.0.0
 
-- 開発モードリリース
+- develop mode release
