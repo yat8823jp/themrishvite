@@ -1,4 +1,7 @@
 # THEMRISHvite 
+
+![screenshot](https://github.com/yat8823jp/themrishvite/blob/main/screenshot.png)
+
 - [Vite](https://ja.vitejs.dev/)
 - SCSS
 - Tailwind CSS - [Cheat Sheet](https://flowbite.com/tools/tailwind-cheat-sheet/)
