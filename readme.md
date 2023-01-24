@@ -18,6 +18,10 @@
 1. LOCAL project start
 2. ``` npm run dev ```
 
+If image below on screen and cli is no error so it's work.
+
+![demo](https://github.com/yat8823jp/themrishvite/blob/main/assets/images/aig-ai20221111066-xl_TP_V.jpg)
+
 ## Config
 
 ### Change develop mode
