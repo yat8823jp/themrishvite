@@ -40,6 +40,7 @@ export default defineConfig ( {
 				}
 			},
 		},
+		assetsInlineLimit: 0,
 		minify: false,
 		write: true,
 	},
