@@ -38,6 +38,10 @@ functions.php
 Setting file is ./main.js.
 Build to dist directory for main.js.
  
+V1.2.1
+
+- build image assetsInlineLimit add num 0
+ 
 V1.2.0
 
 - add webp format
