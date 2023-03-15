@@ -34,6 +34,17 @@ functions.php
 ``` define( "IS_VITE_DEVELOPMENT", true ); //develop mode on ```
 ``` define( "IS_VITE_DEVELOPMENT", false ); //develop mode off ```
 
+Develop mode is main.js to read SCSS file.
+
+### Not use develop mode
+
+Develop mode off is read from the main.css in dist directory.
+Not use SCSS file.
+
+If you want to deploy to server, so it isn't use develop mode.
+First, you use build command.
+Second, you deployment to server.
+
 ## build
 
 ``` npm run build ```
