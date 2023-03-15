@@ -8,6 +8,9 @@
 - ECMAScript2018(ES9)
 - [LOCAL](https://localwp.com/)
 
+## required
+
+Node >=16.0.0
 
 ## Install
 
