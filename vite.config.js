@@ -10,7 +10,7 @@ import fs from "fs";
 
 export default defineConfig ( {
 	plugins: [
-		liveReload( __dirname + '/**/*.php' )
+		liveReload( __dirname + '/**/*.php' ),
 	],
 	root: '',
 	base: process.env.NODE_ENV === 'development' ? './' : '/dist/',

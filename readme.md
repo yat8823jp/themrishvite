@@ -37,6 +37,12 @@ functions.php
 
 Setting file is ./main.js.
 Build to dist directory for main.js.
+
+V1.3.0
+
+- delete squoosh
+- update packages
+- update release mode
  
 V1.2.1
 

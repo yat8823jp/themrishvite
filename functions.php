@@ -69,12 +69,10 @@ add_action( 'wp_enqueue_scripts', function() {
 			// get first key, by default is 'main.js'
 			$manifest_key = array_keys( $manifest );
 			if ( isset( $manifest_key[0] ) ) {
-				var_dump( @$manifest[$manifest_key[0]] );
 				// enqueue CSS files
-				foreach( @$manifest[$manifest_key[0]]['css'] as $css_file ) {
+				foreach( @$manifest["main.css"] as $css_file ) {
 					wp_enqueue_style( 'main', DIST_URI . '/' . $css_file );
 				}
-				
 				// enqueue main JS file
 				$js_file = @$manifest[$manifest_key[0]]['file'];
 				if ( ! empty( $js_file ) ) {
