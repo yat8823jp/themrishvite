@@ -32,6 +32,7 @@ If image below on screen and cli is no error so it's work.
 functions.php
 
 ``` define( "IS_VITE_DEVELOPMENT", true ); //develop mode on ```
+
 ``` define( "IS_VITE_DEVELOPMENT", false ); //develop mode off ```
 
 Develop mode is main.js to read SCSS file.
