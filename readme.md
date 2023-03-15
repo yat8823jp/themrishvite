@@ -43,8 +43,8 @@ Develop mode off is read from the main.css in dist directory.
 Not use SCSS file.
 
 If you want to deploy to server, so it isn't use develop mode.
-First, you use build command.
-Second, you deployment to server.
+- First, you use build command.
+- Second, you deployment to server.
 
 ## build
 
