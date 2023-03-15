@@ -44,6 +44,7 @@ Build to dist directory for main.js.
 V1.3.0
 
 - delete squoosh
+- SCSS partial file support
 - update packages
 - update release mode
  
