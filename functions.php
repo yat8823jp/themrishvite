@@ -74,7 +74,8 @@ add_action( 'wp_enqueue_scripts', function() {
 					wp_enqueue_style( 'main', DIST_URI . '/' . $css_file );
 				}
 				// enqueue main JS file
-				$js_file = @$manifest[$manifest_key[0]]['file'];
+				// $js_file = @$manifest[$manifest_key[0]]['file'];
+				$js_file = @$manifest["main.js"]['file'];
 				if ( ! empty( $js_file ) ) {
 					wp_enqueue_script( 'main', DIST_URI . '/' . $js_file, JS_DEPENDENCY, '', JS_LOAD_IN_FOOTER );
 				}

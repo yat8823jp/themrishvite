@@ -1,0 +1,28 @@
+@use "sass:math";
+
+// Break point
+@mixin breakpoint( $point ) {
+	@if $point == tablet {
+		@media ( min-width: 375px ) {
+			@content ;
+		}
+	}
+	@if $point == tablet {
+		@media ( min-width: 768px ) {
+			@content ;
+		}
+	}
+	@if $point == pc {
+		@media ( min-width: 1281px ) {
+			@content ;
+		}
+	}
+}
+
+// rem
+$root-font-size: 16; //変数 $root-font-size に 16px を代入
+
+@mixin font-rem( $font-size-px, $root-font-size: 16 ) { // $root-font-size に初期値を設定
+	font-size: math.div( ( $font-size-px * 1rem ), $root-font-size ); // $font-size-px に 1rem をかけたものを、 $root-font-size( 16px ) で割る
+}
+

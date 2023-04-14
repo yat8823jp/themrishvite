@@ -25,6 +25,24 @@ If image below on screen and cli is no error so it's work.
 
 ![screenshot](https://github.com/yat8823jp/themrishvite/blob/main/screenshot.png)
 
+
+## For scss
+
+You need use CSS variable + set value.
+
+example
+```
+background: url( $base-dir + 'assets/images/dummy.jpg' );
+```
+
+### develop mode
+
+$base-dir: '/'
+
+### production mode
+
+$base-dir: '/dist/'
+
 ## Config
 
 ### Change develop mode
@@ -52,6 +70,10 @@ If you want to deploy to server, so it isn't use develop mode.
 
 Setting file is ./main.js.
 Build to dist directory for main.js.
+
+V1.3.1
+
+Bug fix css use to dist mode.
 
 V1.3.0
 
