@@ -69,9 +69,6 @@ export default defineConfig ( {
 				tailwindcss,
 				autoprefixer,
 			],
-		},
-		// plugins: [
-		// 	sassGlobImports,
-		// ]
+		}
 	},
 } );
