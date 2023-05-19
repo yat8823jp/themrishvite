@@ -72,6 +72,7 @@ Setting file is ./main.js.
 Build to dist directory for main.js.
 
 V1.4.0
+
 Use partial loading for scss
 
 V1.3.1
