@@ -71,6 +71,9 @@ If you want to deploy to server, so it isn't use develop mode.
 Setting file is ./main.js.
 Build to dist directory for main.js.
 
+V1.4.0
+Use partial loading for scss
+
 V1.3.1
 
 Bug fix css use to dist mode.

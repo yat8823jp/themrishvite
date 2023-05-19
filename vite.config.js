@@ -11,10 +11,10 @@ import fs from "fs";
 const themePath = '/wp-content/themes/themrishvite';
 const assets = process.env.NODE_ENV === 'development' ? '/' : '/dist/';
 
-
 export default defineConfig ( {
 	plugins: [
 		liveReload( __dirname + '/**/*.php' ),
+		sassGlobImports(),
 	],
 	root: '',
 	base: process.env.NODE_ENV === 'development' ? './' : '/dist/',
@@ -54,7 +54,7 @@ export default defineConfig ( {
 		port: 3000,
 		https: false,
 		hmr: {
-			host: 'localhost',
+			host: 'localhost'
 		},
 	},
 	css: {
@@ -70,8 +70,8 @@ export default defineConfig ( {
 				autoprefixer,
 			],
 		},
-		plugins: [
-			sassGlobImports,
-		]
+		// plugins: [
+		// 	sassGlobImports,
+		// ]
 	},
 } );
