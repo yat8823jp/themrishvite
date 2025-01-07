@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "autoprefixer": "^10.4.14",
+    "caniuse-lite": "^1.0.30001690",
     "cross-env": "^7.0.3",
     "fs": "^0.0.1-security",
     "glob": "^9.3.0",
